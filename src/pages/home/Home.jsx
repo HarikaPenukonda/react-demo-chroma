@@ -1,6 +1,6 @@
 import "./home.css"
 import TopBox from "../../components/topBox/TopBox"
-// import ChartBox from "../../components/chartBox/ChartBox"
+import ChartBox from "../../components/chartBox/ChartBox"
 // import PieChartBox from "../../components/pieChartBox/PieChartBox"
 // import BigChartBox from "../../components/bigChartBox/BigChartBox"
 // import BarChartBox from "../../components/barChartBox/BarChartBox"
@@ -11,14 +11,13 @@ export default function Home(){
             <div className="box box1">
                 <TopBox/>
             </div>
-            { <div className="box box2">
+             <div className="box box2">
                 <ChartBox/>
             </div>
-            /*
             <div className="box box3">
                 <ChartBox/>
             </div>
-            <div className="box box4">
+            {/* <div className="box box4">
                 <PieChartBox/>
             </div>
             <div className="box box5">
@@ -35,7 +34,7 @@ export default function Home(){
             </div>
             <div className="box box9">
                 <BarChartBox/>
-            </div> */}
+            </div>  */}
         </div>
     )
 }
