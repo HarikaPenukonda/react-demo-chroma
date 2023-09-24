@@ -1,9 +1,17 @@
+import { useEffect, useState } from "react"
 import "./topBox.css"
-import topDealUsers from "../../top-deal.js"
-
+//import { topDealUsers } from "../../data.js"
 
 export default function TopBox(){
-    //const [topDealUsers,setTopDealUsers] = useState([])
+    const [topDealUsers,setTopDealUsers] = useState([])
+
+    // useEffect is a React Hook that lets you synchronize a component with an external system.
+    // we are making a call to API, instead of using out data.js file
+
+    useEffect(()=>{
+
+    },[])
+
     return(
         <div className="topBox">
             <h1>Top Deals</h1>
