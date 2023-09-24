@@ -11,13 +11,14 @@ export default function Home(){
             <div className="box box1">
                 <TopBox/>
             </div>
+            {/*
              <div className="box box2">
                 <ChartBox/>
             </div>
             <div className="box box3">
                 <ChartBox/>
             </div>
-            {/* <div className="box box4">
+             <div className="box box4">
                 <PieChartBox/>
             </div>
             <div className="box box5">

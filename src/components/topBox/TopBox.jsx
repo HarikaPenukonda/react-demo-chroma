@@ -1,5 +1,7 @@
 import "./topBox.css"
 import topDealUsers from "../../top-deal.js"
+
+
 export default function TopBox(){
     //const [topDealUsers,setTopDealUsers] = useState([])
     return(
