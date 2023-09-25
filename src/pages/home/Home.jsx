@@ -1,6 +1,6 @@
 import "./home.css"
 import TopBox from "../../components/topBox/TopBox"
-import ChartBox from "../../components/chartBox/ChartBox"
+//import ChartBox from "../../components/chartBox/ChartBox"
 // import PieChartBox from "../../components/pieChartBox/PieChartBox"
 // import BigChartBox from "../../components/bigChartBox/BigChartBox"
 // import BarChartBox from "../../components/barChartBox/BarChartBox"

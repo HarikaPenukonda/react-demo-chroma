@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import "./topBox.css"
+import { getTopDealUsers } from "../../apicalls"
 //import { topDealUsers } from "../../data.js"
 
 export default function TopBox(){
@@ -9,7 +10,7 @@ export default function TopBox(){
     // we are making a call to API, instead of using out data.js file
 
     useEffect(()=>{
-
+        getTopDealUsers()
     },[])
 
     return(
