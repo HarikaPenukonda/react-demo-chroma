@@ -13,5 +13,5 @@ const baseURL = "http://localhost:3001/"
 export async function getTopDealUsers(){
    const response =  await axios.get(`${baseURL}users/top-deal-users`)
    //console.log(response.data)
-   return response.data
+   return response.data.topDealUsers
 }
