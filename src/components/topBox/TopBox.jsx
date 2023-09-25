@@ -9,8 +9,15 @@ export default function TopBox(){
     // useEffect is a React Hook that lets you synchronize a component with an external system.
     // we are making a call to API, instead of using out data.js file
 
+    // useEffect(async ()=>{
+    //     setTopDealUsers(await getTopDealUsers())
+    // },[])
+
     useEffect(()=>{
-        getTopDealUsers()
+        let getData = async()=>{
+            setTopDealUsers(await getTopDealUsers())
+        }
+        getData();
     },[])
 
     return(
